@@ -3,6 +3,15 @@ name = "wgpu-engine"
 version = "0.1.0"
 edition = "2021"
 
+resolver = "2"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+winit = "0.26"
+egui = "0.16"
+egui_winit_platform = "0.13"
+egui_wgpu_backend = "0.16"
+epi = "0.16"
+wgpu = "0.12"
+pollster = "0.2"
